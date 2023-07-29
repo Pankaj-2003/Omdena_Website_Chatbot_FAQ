@@ -1,0 +1,115 @@
+version: "3.1"
+nlu:
+- intent: joining_omdena_network
+  examples: |
+    - How to join Omdena?
+    - Steps to join Omdena?
+    - Sign up for Omdena.
+    - Join Omdena.
+    - how can i join omdena?
+    - how can i join omdena
+    - how to join omdena
+- intent: become_collaborator
+  examples: |
+    - How to become a collaborator?
+    - Get involved as a collaborator.
+    - Become an Omdena collaborator.
+    - Join as a collaborator.
+    - how to become a collaborator
+    - how to become a collaborator?
+    - how to join as collaborator?
+- intent: requirements_collaborator
+  examples: |
+    - Prerequisites for collaborators?
+    - Requirements to join.
+    - Collaborator eligibility.
+    - Qualifications needed.
+    - what are requirements to become collaborator?
+    - what are the qualifications needed ?
+- intent: apply_collaborator
+  examples: |
+    - How to apply as a collaborator?
+    - Application process?
+    - Where to apply?
+    - Procedure to join.
+    - where can in apply for collaborator?
+    - where can i apply
+- intent: omdena_projects
+  examples: |
+    - Types of Omdena projects?
+    - Overview of projects.
+    - Omdena focus areas.
+    - Details on projects.
+- intent: join_omdena_projects
+  examples: |
+    - Participate in Omdena project?
+    - Join ongoing project.
+    - How to get involved?
+    - Steps to join project.
+- intent: find_project_myself
+  examples: |
+    - Search for projects?
+    - Find suitable project.
+    - Explore available projects.
+    - Resources to find projects.
+    - how can i search for projects
+- intent: working_process
+  examples: |
+    - Omdena project workflow?
+    - Collaboration process.
+    - Step-by-step working.
+    - Project execution structure.
+- intent: collaboration_tools
+  examples: |
+    - Omdena collaboration tools?
+    - Online platforms used?
+    - Collaborator tools list.
+    - Communication platforms.
+- intent: roles_responsibilities
+  examples: |
+    - Omdena collaborator roles?
+    - Responsibilities in projects.
+    - Team member expectations.
+    - How are roles distributed?
+- intent: programming_languages
+  examples: |
+    - Programming languages used?
+    - Proficiency requirements.
+    - Preferred languages.
+    - which programming languages are used in projects?
+    - which programming languages are used
+    - what programming are used
+    - which programmming languages are used?
+    - what programming languages are used
+- intent: tools_used
+  examples: |
+    - Omdena project tools?
+    - Examples of tools used.
+    - How to familiarize with tools.
+    - Required proficiency.
+- intent: data_accessing
+  examples: |
+    - Accessing data for projects?
+    - Source of project data.
+    - Collaborator data role.
+    - Data acquisition process.
+    - rasa data split nlu
+- intent: about_community
+  examples: |
+    - Omdena community details.
+    - Overview of community.
+    - How Omdena community works.
+    - Benefits of community.
+- intent: networking
+  examples: |
+    - Collaborator networking.
+    - Omdena community interaction.
+    - Tips for effective networking.
+    - Collaborator platform/forums.
+- intent: collaborator_benefit
+  examples: |
+    - Benefits of collaborating?
+    - How does collaboration help?
+    - Rewards/incentives for collaborators.
+    - Positive outcomes of collaboration.
+    - what are the benefits of collaborating
