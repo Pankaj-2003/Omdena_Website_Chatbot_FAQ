@@ -1,0 +1,135 @@
+version: "3.1"
+
+nlu:
+
+- intent: goal_omdena_chapters
+  examples: |
+    - Purpose of chapters
+    - Why local chapters exist
+    - Goals of Omdena Chapters
+
+- intent: join_chapter
+  examples: |
+    - Join a chapter now
+    - How to get involved?
+    - Participate in a local chapter
+
+- intent: applying
+  examples: |
+    - Submit your application
+    - How to apply?
+    - Application process
+
+- intent: collaborator_role
+  examples: |
+    - What collaborators do
+    - Collaborator responsibilities
+    - Role of a collaborator
+
+- intent: join_as_collaborator
+  examples: |
+    - Become a collaborator
+    - Join as a team member
+    - Collaborate with Omdena
+
+- intent: benefit_collaborator
+  examples: |
+    - Advantages for collaborators
+    - Benefits of collaborating
+    - What you gain as a collaborator
+
+- intent: collaborator_requirements
+  examples: |
+    - Joining requirements
+    - How to qualify as a collaborator
+    - Prerequisites for collaborators
+
+- intent: chapter_lead_role
+  examples: |
+    - Responsibilities of chapter leads
+    - What chapter leads do
+    - Role of a chapter lead
+
+- intent: join_chapter_lead
+  examples: |
+    - Lead a chapter
+    - Become a chapter lead
+    - Join as a lead
+
+- intent: chapter_lead_benefit
+  examples: |
+    - Advantages of being a lead
+    - Benefits for chapter leads
+    - What you gain as a chapter lead
+
+- intent: chapter_lead_requirements
+  examples: |
+    - Requirements for leading a chapter
+    - How to qualify as a lead
+    - Prerequisites for chapter leads
+
+- intent: partner_role
+  examples: |
+    - Role of partners
+    - What partners do
+    - Partner responsibilities
+
+- intent: join_partner
+  examples: |
+    - Become a partner
+    - How to partner with Omdena
+    - Partner with us
+
+- intent: partner_benefit
+  examples: |
+    - Why become a partner?
+    - Advantages of partnering
+    - Benefits for partners
+
+- intent: partner_requirements
+  examples: |
+    - Partnering requirements
+    - How to qualify as a partner
+    - Prerequisites for partners
+
+- intent: case_study
+  examples: |
+    - Understanding case study education
+    - What are case studies?
+    - Learning through case studies
+
+- intent: help_networking
+  examples: |
+    - How local chapters assist with AI services
+    - Networking support for AI enthusiasts
+    - Help with AI projects
+
+- intent: cross_border_exchange_impact
+  examples: |
+    - Impact of knowledge exchange
+    - Cross-border impact on AI solutions
+    - Global knowledge sharing effect
+
+- intent: collaboration_and_insights
+  examples: |
+    - Collaboration in chatbot development
+    - How chapters share insights
+    - Working together on chatbots
+
+- intent: support_communities
+  examples: |
+    - Supporting AI solutions in communities
+    - Promoting open-source projects
+    - Community assistance by chapters
+
+- intent: using_technology
+  examples: |
+    - Technology in local chapters
+    - Engaging with tech
+    - Leveraging modern tools
+
+- intent: local_chapters_role
+  examples: |
+    - Omdena chapters and education
+    - Facilitating case study education
+    - Local chapters' role in learning
