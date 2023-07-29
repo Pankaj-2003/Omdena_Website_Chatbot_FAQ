@@ -1,0 +1,62 @@
+version: "3.1"
+
+stories:
+
+- story: Story_1
+  steps:
+  - intent: goal_omdena_chapters
+  - action: utter_goal_omdena_chapters
+  - intent: join_chapter
+  - action: utter_join_chapter
+  - intent: applying
+  - action: utter_applying
+
+- story: story_2
+  steps:
+  - intent: collaborator_role
+  - action: utter_collaborator_role
+  - intent: join_as_collaborator
+  - action: utter_join_as_collaborator
+  - intent: benefit_collaborator
+  - action: utter_benefit_collaborator
+  - intent: collaborator_requirements
+  - action: utter_collaborator_requirements
+
+- story: story_3
+  steps:
+  - intent: chapter_lead_role
+  - action: utter_chapter_lead_role
+  - intent: join_chapter_lead
+  - action: utter_join_chapter_lead
+  - intent: chapter_lead_benefit
+  - action: utter_chapter_lead_benefit
+  - intent: chapter_lead_requirements
+  - action: utter_chapter_lead_requirements
+
+- story: story_4
+  steps:
+  - intent: partner_role
+  - action: utter_partner_role
+  - intent: join_partner
+  - action: utter_join_partner
+  - intent: partner_benefit
+  - action: utter_partner_benefit
+  - intent: partner_requirements
+  - action: utter_partner_requirements
+
+- story: story_5
+  steps:
+  - intent: case_study
+  - action: utter_case_study
+  - intent: help_networking
+  - action: utter_help_networking
+  - intent: cross_border_exchange_impact
+  - action: utter_cross_border_exchange_impact
+  - intent: collaboration_and_insights
+  - action: utter_collaborations_and_insights
+  - intent: support_communities
+  - action: utter_support_communities
+  - intent: using_technology
+  - action: utter_using_technology
+  - intent: local_chapters_role
+  - action: utter_local_chapters_role
