@@ -8,27 +8,35 @@ stories:
   - action: utter_joining_omdena_network
   - intent: become_collaborator
   - action: utter_become_collaborator
+
+- story: Story_2
+  steps:
+
   - intent: requirements_collaborator
   - action: utter_requirements_collaborator
   - intent: apply_collaborator
   - action: utter_apply_collaborator
 
-- story: story_2
+- story: story_3
   steps:
   - intent: omdena_projects
   - action: utter_omdena_projects
   - intent: join_omdena_projects
   - action: utter_join_omdena_project
+- story: Story_4
+  steps:
   - intent: find_project_myself
   - action: utter_find_project_myself
   - intent: working_process
   - action: utter_working_process
+- story: Story_5
+  steps:
   - intent: collaboration_tools
   - action: utter_collaboration_tools
   - intent: roles_responsibilities
   - action: utter_roles_responsibilities
 
-- story: story_3
+- story: story_6
   steps:
   - intent: programming_languages
   - action: utter_programming_languages
@@ -37,7 +45,7 @@ stories:
   - intent: data_accessing
   - action: utter_data_accessing
 
-- story: story_4
+- story: story_7
   steps:
   - intent: about_community
   - action: utter_about_community
@@ -50,53 +58,5 @@ stories:
 
 
 
-- story: interactive_story_1
-  steps:
-  - intent: joining_omdena_network
-  - action: utter_joining_omdena_network
-  - intent: programming_languages
 
-- story: interactive_story_1
-  steps:
-  - intent: become_collaborator
 
-- story: interactive_story_1
-  steps:
-  - intent: joining_omdena_network
-  - action: utter_joining_omdena_network
-  - intent: become_collaborator
-  - action: utter_become_collaborator
-  - intent: nlu_fallback
-  - intent: requirements_collaborator
-  - action: utter_requirements_collaborator
-  - intent: apply_collaborator
-  - action: utter_apply_collaborator
-  - intent: become_collaborator
-  - intent: programming_languages
-  - action: utter_programming_languages
-  - intent: nlu_fallback
-  - intent: requirements_collaborator
-  - action: utter_requirements_collaborator
-  - intent: requirements_collaborator
-  - action: utter_requirements_collaborator
-  - intent: collaborator_benefit
-
-- story: interactive_story_1
-  steps:
-  - intent: find_project_myself
-
-- story: interactive_story_1
-  steps:
-  - intent: joining_omdena_network
-  - action: utter_joining_omdena_network
-  - intent: apply_collaborator
-
-- story: interactive_story_1
-  steps:
-  - intent: programming_languages
-  - action: utter_programming_languages
-  - intent: joining_omdena_network
-
-- story: interactive_story_1
-  steps:
-  - intent: data_accessing
